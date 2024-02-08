@@ -27,5 +27,8 @@ for d in disguises.disguise_list:
     if d.castable(mana_sources):
         possible_suspects.append(d)
 
+s = ''
 for suspect in possible_suspects:
-    st.write(f'![{suspect.name}]({suspect.image})')
+    s += f'![{suspect.name}]({suspect.image})'
+
+streamlit.write(s)
