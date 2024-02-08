@@ -33,4 +33,4 @@ for suspect in possible_suspects:
     output.append(suspect.image)
     s += f'![{suspect.name}]({suspect.image})'
 
-st.image(output, width = 100)
+st.image(output, width = 200)
