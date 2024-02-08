@@ -1,6 +1,7 @@
 import streamlit as st
 import disguises
 
+st.set_page_config(layout = 'wide')
 st.title('Who dat?')
 st.divider()
 mana_sources = []
@@ -33,4 +34,4 @@ for suspect in possible_suspects:
     output.append(suspect.image)
     s += f'![{suspect.name}]({suspect.image})'
 
-st.image(output, width = 200)
+st.image(output, width = 244)
