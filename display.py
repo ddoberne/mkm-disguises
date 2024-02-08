@@ -6,10 +6,12 @@ st.divider()
 mana_sources = []
 possible_mana_sources = ['none', 'W', 'U', 'B', 'R', 'G', 'W-U', 'W-B', 'W-R', 'W-G',
                          'U-B', 'U-R', 'U-G', 'B-R', 'B-G', 'R-G', '*', 'c']
-current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0)
+i = 0
+current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0, key = i)
 while (current != 'none'):
     mana_sources.append(current)
-    current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0)
+    i += 1
+    current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0, key = i)
 
 
 st.sidebar.write(str(mana_sources))
