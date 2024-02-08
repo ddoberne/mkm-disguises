@@ -31,4 +31,4 @@ s = ''
 for suspect in possible_suspects:
     s += f'![{suspect.name}]({suspect.image})'
 
-streamlit.write(s)
+st.write(s)
