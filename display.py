@@ -28,7 +28,9 @@ for d in disguises.disguise_list:
         possible_suspects.append(d)
 
 s = ''
+output = []
 for suspect in possible_suspects:
+    output.append(suspect.image)
     s += f'![{suspect.name}]({suspect.image})'
 
-st.write(s)
+st.image(output, width = 100)
