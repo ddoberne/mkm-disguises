@@ -10,7 +10,7 @@ class Disguise:
         self.blocks_flying = blocks_flying
 
     def castable(self, mana_sources):
-        if len(mana_sources) <= self.mana_value:
+        if len(mana_sources) < self.mana_value:
             return False
         i = 0
         color_requirement = self.color_requirements.copy()
