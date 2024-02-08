@@ -9,7 +9,7 @@ possible_mana_sources = ['none', 'W', 'U', 'B', 'R', 'G', 'W-U', 'W-B', 'W-R', '
 current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0)
 while (current != 'none'):
     mana_sources.append(current)
-    st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0)
+    current = st.sidebar.selectbox('Add mana source:', options = possible_mana_sources, index = 0)
 
 
 st.sidebar.write(str(mana_sources))
