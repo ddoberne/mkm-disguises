@@ -16,7 +16,7 @@ class Disguise:
         color_requirement = self.color_requirements.copy()
         while len(color_requirement) > 0:
             current = mana_sources[i]
-            if (current == 'rainbow') or (color_requirement[0] in current) or (color_requirement[-1] in current):
+            if (current == 'rainbow') or (color_requirement[0][0] in current) or (color_requirement[0][-1] in current):
                 color_requirement.pop()
             i += 1
             if i >= len(mana_sources):
