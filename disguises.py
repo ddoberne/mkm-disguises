@@ -10,7 +10,7 @@ class Disguise:
         self.blocks_flying = blocks_flying
 
     def castable(self, mana_sources):
-        if len(mana_sources) < self.mana_value:
+        if len(mana_sources) <= self.mana_value:
             return False
         i = 0
         color_requirement = self.color_requirements.copy()
@@ -30,7 +30,7 @@ disguise_list.append(Disguise("Essense of Antiquity", ['W'], 3, 1, 10, False, 'h
 disguise_list.append(Disguise("Forum Familiar", ['W'], 2, 2, 2, False, 'https://cards.scryfall.io/normal/front/b/0/b06a243d-acc8-42cd-926c-98a4cc96ab21.jpg?1706241486'))
 
 disguise_list.append(Disguise("Museum Nightwatch", ['W'], 2, 3, 2, False, 'https://cards.scryfall.io/normal/front/3/7/37860682-4973-4a0f-a43a-3056037bd2dc.jpg?1706241514'))
-disguise_list.append(Disguise("Unyielding Gatekeeper", ['W'], 2, 3, 2, False, 'https://cards.scryfall.io/normal/front/5/9/5901dff4-e09b-4747-9297-797a1a057cd5.jpg?1706241453'))
+disguise_list.append(Disguise("Unyielding Gatekeeper", ['W'], 2, 3, 2, False, 'https://cards.scryfall.io/normal/front/f/3/f3a0d597-d2df-4aaf-8084-c8eeda64ce60.jpg?1706241543'))
 disguise_list.append(Disguise("Bubble Smuggler", ['U'], 6, 6, 5, False, 'https://cards.scryfall.io/normal/front/6/b/6b863ee0-d9f3-4b1e-993d-5212731d9353.jpg?1706241560'))
 disguise_list.append(Disguise("Coveted Falcon", ['U'], 4, 4, 2, True, 'https://cards.scryfall.io/normal/front/b/c/bc936987-d58b-4e7c-870f-379bcae77727.jpg?1706241580'))
 
