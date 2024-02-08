@@ -61,7 +61,7 @@ disguise_list.append(Disguise("Gadget Technician", ['UR', 'UR'], 2, 4, 3, True, 
 disguise_list.append(Disguise("Granite Witness", ['UW', 'UW'], 2, 3, 2, True, 'https://cards.scryfall.io/normal/front/d/a/daee9d98-f8c6-4980-8f23-c6c636b69430.jpg?1706242170'))
 disguise_list.append(Disguise("Rakish Scoundrel", ['GB', 'GB'], 6, 3, 3, False, 'https://cards.scryfall.io/normal/front/6/a/6aaa8c6b-7ef7-45db-99c9-4a6e7f177b94.jpg?1706242231'))
 disguise_list.append(Disguise("Riftburst Hellion", ['RG', 'RG'], 6, 6, 7, True, 'https://cards.scryfall.io/normal/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.jpg?1706242241'))
-disguise_list.append(Disguise("Sanguine Savior", ['WB', WB], 2, 2, 1, True, 'https://cards.scryfall.io/normal/front/9/c/9cba5503-ba99-43d8-8062-66d905e0d86b.jpg?1706242243'))
+disguise_list.append(Disguise("Sanguine Savior", ['WB', 'WB'], 2, 2, 1, True, 'https://cards.scryfall.io/normal/front/9/c/9cba5503-ba99-43d8-8062-66d905e0d86b.jpg?1706242243'))
 
 disguise_list.append(Disguise("Shady Informant", ['RB', 'RB'], 4, 4, 2, False, 'https://cards.scryfall.io/normal/front/0/d/0de36e63-8190-415f-b65b-bae1e595845d.jpg?1706242250'))
 disguise_list.append(Disguise("Undercover Crocodelf", ['UG', 'UG'], 5, 5, 5, False, 'https://cards.scryfall.io/normal/front/5/b/5bc669c8-6f39-4d52-82d3-a4005d41c8a5.jpg?1706242271'))
