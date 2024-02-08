@@ -17,5 +17,5 @@ for key in msdict.keys():
     for i in range(msdict[key]):
         mana_sources.append(key)
 
-st.write(f'Total available mana: {len(mana_sources}')
+st.write(f'Total available mana: {len(mana_sources)}')
 st.sidebar.write(str(mana_sources))
