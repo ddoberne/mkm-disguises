@@ -21,4 +21,11 @@ for key in msdict.keys():
         mana_sources.append(key)
 
 st.write(f'Total available mana: {len(mana_sources)}')
-st.sidebar.write(str(mana_sources))
+
+possible_suspects = []
+for d in disguises.disguise_list:
+    if d.castable(mana_sources):
+        possible_suspects.append(d)
+
+for suspect in possible_suspects:
+    st.write(f'![{suspect.name'}]({suspect.image})')
