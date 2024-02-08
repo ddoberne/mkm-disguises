@@ -28,4 +28,4 @@ for d in disguises.disguise_list:
         possible_suspects.append(d)
 
 for suspect in possible_suspects:
-    st.write(f'![{suspect.name'}]({suspect.image})')
+    st.write(f'![{suspect.name}]({suspect.image})')
